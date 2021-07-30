@@ -1,7 +1,7 @@
 # AirQuality
-Shiny app created to quickly visualize summer air quality data collected in New York. This App is simple and user friendly. The only UI capability included is a dropdown menu of the different vairables (columns) from the data. The resulting graph reveals trends within the measurement between the months of May-Sep for the given research year.  
+Shiny app created to quickly visualize summer air quality data collected in New York. The data comes from data provided in R throught the dataset library (library("datasets")). This App is simple and user friendly. The only UI capability included is a dropdown menu of the different vairables (columns) from the data. The resulting app creates a barplot for trends within each measurement. The user can select the variable, and the barplot automatically updates to the new variable. This is very helpful as it quickly turns raw data into a visualization, which allows the user to understand the varaible results more effectively.   
 
-#Loading in Data through the R datasets. The data chosen for this Shiny App is the Air Quality data. 
+Below is the code and comments on the different aspects, marked with # at the start of the line. 
 
 
 library(datasets)
